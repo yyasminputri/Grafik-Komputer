@@ -1,7 +1,7 @@
-# Tugas Individu Grafkom A
+# Grafik Komputer A
 ### Nama : Yasmin Putri <br> NRP : 5025221273
 
-## Tugas 1 - Program Sederhana (2D)
+## Program Sederhana (2D)
 Membuat Program Sederhana dengan WebGL, saya berhasil menggambar segitiga berwarna pink dengan latar belakang abu-abu `gl.clearColor(0.5, 0.5, 0.5, 1.0);`.
 Membuat segitiga pink dengan 3 vertex dan 3 buah segitiga. 
 ```
@@ -27,7 +27,7 @@ File JavaScript eksternal bernama app.js diimpor untuk mengatur dan menggambar g
 - Output Result
   <img width="789" alt="Screenshot 2024-09-22 at 11 33 36" src="https://github.com/user-attachments/assets/c20d05af-d2f4-43cd-a3d5-52a455f814ea">
 
-## Tugas 2 - Rotating, Translation, Scaling,
+## Rotating, Translation, Scaling,
  Implementasi 2D Rotating, Translation, Scaling Matrix dalam WebGL, saya berhasil mengimplemntasikan dengan letter 'L', dimana bentuk tersebut berwarna pink. 
  ```
 function setL(gl){
@@ -89,7 +89,7 @@ Dalam pembuatan kode ini, saya memerlukan 3 file, yaitu css, js dan html
 - Output Result Scaling
 <img width="1440" alt="Screenshot 2024-09-22 at 11 54 33" src="https://github.com/user-attachments/assets/00dac464-a999-4f96-8f22-6dc22769eae4">
 
-## Tugas 3
+## 
 ### 1. 3D Animation
 Saya membuat animasi 3d dengan bentuk cube, bola, cone, dan ring. Pembuatan ini hanya memerlukan 1 file yang bernama html. 
 - Cube : Kode HTML ini membuat aplikasi WebGL yang menggambar kubus 3D dengan enam wajah berwarna pastel yang berbeda. Kubus dirender menggunakan buffer untuk menyimpan vertex dan warna, serta shader untuk mengatur tampilan objek. Animasi rotasi diterapkan untuk memberikan efek dinamis saat kubus ditampilkan.
