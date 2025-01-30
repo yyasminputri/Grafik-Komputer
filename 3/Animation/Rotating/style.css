@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Ensure no scrollbars appear */
+}
+
+canvas {
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  display: block; /* Ensures no extra margins */
+  background-color: rgba(255, 217, 242, 1.0); /* Light pink background */
+}
+
+#uiContainer {
+  position: absolute;
+  top: 10px; /* Distance from the top */
+  right: 15px; /* Distance from the right */
+  display: flex;
+  flex-direction: column; /* Stack the UI sliders vertically */
+}
+
+#ui > div {
+  margin: 5px 0; /* Space between sliders */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /* Font style */
+}
